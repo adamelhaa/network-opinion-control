@@ -1,0 +1,16 @@
+sparse-env/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+# LaTeX build artifacts
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.synctex.gz
+
+# Internal build tooling (plan, prompts, logs) - kept local, not part of the submission
+CLAUDE.md
+workflow/
