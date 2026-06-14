@@ -1,0 +1,14 @@
+# Cross-platform: macOS (Apple Silicon + Intel) and Linux, Python 3.10+.
+# Floored at known-good, numpy-2-compatible minors and capped below the next
+# major. This installs as prebuilt wheels everywhere (no compiler needed) while
+# staying reproducible enough that figures regenerate consistently on your machine.
+numpy>=2.2,<3
+scipy>=1.15,<2
+matplotlib>=3.9,<4
+scikit-learn>=1.5,<2
+cvxpy>=1.6,<2          # ships CLARABEL as the default solver (no ECOS needed)
+pandas>=2.2,<3
+tqdm>=4.66
+jupyter
+ipykernel
+notebook
