@@ -11,6 +11,6 @@ report/*.bbl
 report/*.blg
 report/*.synctex.gz
 
-# Internal build tooling (plan, prompts, logs) - kept local, not part of the submission
+/.venv
 CLAUDE.md
 workflow/
