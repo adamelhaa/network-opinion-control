@@ -1,7 +1,3 @@
-# Cross-platform: macOS (Apple Silicon + Intel) and Linux, Python 3.10+.
-# Floored at known-good, numpy-2-compatible minors and capped below the next
-# major. This installs as prebuilt wheels everywhere (no compiler needed) while
-# staying reproducible enough that figures regenerate consistently on your machine.
 numpy>=2.2,<3
 scipy>=1.15,<2
 matplotlib>=3.9,<4
