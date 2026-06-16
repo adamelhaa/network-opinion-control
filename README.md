@@ -91,12 +91,6 @@ To reproduce the analysis, open the notebook in Jupyter, select the **Python (ne
 jupyter notebook notebooks/Notebook.ipynb
 ```
 
-To run it non-interactively from the command line:
-
-```bash
-jupyter nbconvert --to notebook --execute --inplace notebooks/Notebook.ipynb
-```
-
 All random seeds are fixed (`numpy.random.default_rng(42)`), so the Monte Carlo experiments and every reported number reproduce exactly on a clean run.
 
 ## Requirements
